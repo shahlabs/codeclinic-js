@@ -18,7 +18,7 @@
       longitude;
 
     let img = document.createElement('img');
-
+    //this won't work as on june 2018, since we need to pass api key
     img.className = 'img-fluid';
     img.src =
       'https://maps.googleapis.com/maps/api/staticmap?center=' +

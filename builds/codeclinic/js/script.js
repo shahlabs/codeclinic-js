@@ -36,7 +36,7 @@
   }
 
   function error() {
-    map.innerHTML =
+    myMap.innerHTML =
       'Unable to retrieve your location';
   }
 

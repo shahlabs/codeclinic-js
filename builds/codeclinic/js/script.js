@@ -26,16 +26,12 @@
       this.diagUp = new Array(numberOfDiagonals);
       this.solutions = [];
   
-      for (
-        let index = 0;
-        index < numberOfDiagonals;
-        ++index
-      ) {
-        if (index < this.width) {
-          this.columns[index] = -1;
+      for(let i=0; i< numberOfDiagonals; i++){
+        if(i < this.width){
+            this.columns[i] = -1;
         }
-        this.diagDown[index] = free;
-        this.diagUp[index] = free;
+        this.diagDown[i] = free;
+        this.diagUp[i] = free;
       }
       this.position = numColumns;
   
